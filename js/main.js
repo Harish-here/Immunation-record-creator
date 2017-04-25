@@ -18,7 +18,7 @@ $(function(){
     for(i=0;i<11;i++){
       var newdate =  moment(now).add(days[i],format[i]).format("dddd - MMMM Do YYYY");
       var newsim =  moment(now).add(days[i],format[i]).format("D / M / YYYY");
-        setdate(i+1,newdate.toString());
+        setdate(i+1," <b>("+newsim+")</b> ----- "+newdate.toString());
         datestr.push(newdate);
         datesim.push(newsim);
     }
