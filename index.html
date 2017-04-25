@@ -10,17 +10,18 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jquery-ui.min.css" rel="stylesheet" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/moment.min.js"></script>
     <script src="js/pdfmake.min.js"></script>
     <script src="js/vfs_fonts.js"></script>
     
+    
   </head>
   <body>
       <div class="container-fluid">
-    <h3>IMMUNATION RECORD<small>Creator</small></h3>
+    <h3><u>IMMUNATION RECORD</u><small>&nbsp;&nbsp;Creator</small></h3>
     
     <div class="row">
         <div class="col-md-2" id="main_card" >
@@ -30,23 +31,23 @@
         <input class="form-control" id='datepicker' name="date" placeholder="DOB">
     </div>
         <div class="col-md-6">
-            NAME : <span id='child_name'></span> DOB : <span id='dob'></span>
+           <br>
             <table class="table table-bordered">
                 <tr>
-                    <th>Days</th>
-                    <th>Results &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th style="width:35%">Days</th>
+                    <th style="width:65%">Results</th>
                 </tr>
-                <tr><td>45 Days</td><td id="_1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>75 Days</td><td id="_2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>105 Days</td><td id="_3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>6 Months</td><td id="_4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>9 Months</td><td id="_5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>10 Months</td><td id="_6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>15 months</td><td id="_7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>18 months</td><td id="_8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>2 years</td><td id="_9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>5 years</td><td id="_10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-                <tr><td>10 years</td><td id="_11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+                <tr><td>45 Days</td><td id="_1"></td></tr>
+                <tr><td>75 Days</td><td id="_2"></td></tr>
+                <tr><td>105 Days</td><td id="_3"></td></tr>
+                <tr><td>6 Months</td><td id="_4"></td></tr>
+                <tr><td>9 Months</td><td id="_5"></td></tr>
+                <tr><td>10 Months</td><td id="_6"></td></tr>
+                <tr><td>15 months</td><td id="_7"></td></tr>
+                <tr><td>18 months</td><td id="_8"></td></tr>
+                <tr><td>2 years</td><td id="_9"></td></tr>
+                <tr><td>5 years</td><td id="_10"></td></tr>
+                <tr><td>10 years</td><td id="_11"></td></tr>
 
             </table>
             <button type="button" id='print' class="btn btn-primary pull-right disabled" >Print</button>
